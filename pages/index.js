@@ -13,23 +13,20 @@ function Home() {
   return (
     <>
       <div style={containerStyle}>
-        <h1>Olá, Devs!</h1>
+        <h1>Olá, Pessoa!</h1>
+        <h3>Esse projeto ainda está em construção!</h3>
         <p>
-          Se você chegou até aqui, saiba que é uma pessoa fantástica. Não
-          desista, pois você está no caminho para se tornar uma pessoa e um
-          profissional cada vez mais incrível. Mesmo que a 'Síndrome do
-          Impostor' apareça em algum momento, lembre-se da sua jornada e dos
-          passos que você percorreu e continua a percorrer diariamente. Continue
-          acreditando em si mesmo!
+         Estamos correndo para poder aprender muito!
         </p>
         <figure>
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmM14c-Guv938uehyMw2TW6WX33t7vfxrnYg&s"
-            alt="Imagem Motivacional"
+            src="https://media1.tenor.com/m/lN7OvgMccHUAAAAC/sonic-sonic-the-hedgehog.gif"
+            alt="Gif do Sonic Correndo"
             style={imgStyle}
           />
-          <figcaption>Continue acreditando em si mesmo!</figcaption>
+          <figcaption>Espere mais um pouquinho!</figcaption>
         </figure>
+       
       </div>
     </>
   );
